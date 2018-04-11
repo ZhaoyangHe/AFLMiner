@@ -23,8 +23,8 @@ import org.processmining.models.graphbased.directed.petrinet.elements.Transition
 import org.processmining.models.graphbased.directed.petrinet.impl.PetrinetImpl;
 
 public class AlphaFreeLoop {
-	@Plugin(name = "AlphaFreeLoopMiner", parameterLabels = { "XLog" }, returnLabels = { "Petrinet" }, returnTypes = { Petrinet.class })
-	@UITopiaVariant(affiliation = "SDUST", author = "Zhaoyang He", email = "yz1022918@163.com")
+	@Plugin(name = "AlphaFreeLoopMiner", parameterLabels = { "XLog" }, returnLabels = { "Petrinet" }, returnTypes = { Petrinet.class }, help = "The ¦Á-FL algorithm is proposed as mining free loop structures from incomplete event logs.")
+	@UITopiaVariant(affiliation = "Shandong University of Science and Technology", author = "Zhaoyang He", email = "yz1022918@163.com")
 	public Petrinet doMining(PluginContext context, XLog log) {
 		String pnname = "AlphaFreeLoop";
 		PetrinetImpl pn = new PetrinetImpl(pnname);

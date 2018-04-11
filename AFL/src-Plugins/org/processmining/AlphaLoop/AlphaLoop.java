@@ -29,7 +29,7 @@ public class AlphaLoop {
 			returnTypes = { Petrinet.class }
 	)
 	@UITopiaVariant(
-	        affiliation = "SDUST", 
+	        affiliation = "Shandong University of Science and Technology", 
 	        author = "Zhaoyang He", 
 	        email = "yz1022918@163.com"
 	)
